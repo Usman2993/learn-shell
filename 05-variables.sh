@@ -10,6 +10,6 @@ END_TIME=$(date +%s)
 
 echo "Script completedExecution at: $END_TIME"
 
-TOTAL_TIME=$((END_TIME - START_TIME))
+TOTAL_TIME=$((END_TIME-START_TIME))
 
-echo "total time taken: "
+echo "total time taken: $TOTAL_TIME"
