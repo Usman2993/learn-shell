@@ -1,9 +1,9 @@
 #!/bin/bash
 
 echo "Please enter your name: "
-read USER_NAME
+read -s USER_NAME
 
 echo "Please enter your Password: "
-read PASSWORD
+read -s PASSWORD
 
 echo "User name is: $USER_NAME Password is: $PASSWORD"
