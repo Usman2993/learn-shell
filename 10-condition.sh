@@ -7,11 +7,11 @@ read marks
 
 if [ $marks -lt 33 ]; then
     echo "You are failed"
-else [ $marks -lt 50 ]; then
+elif [ $marks -lt 50 ]; then
     echo "third class"
-else [ $marks -lt 60 ]; then
+elif [ $marks -lt 60 ]; then
     echo "second class"
-else [ $marks -lt 75 ]; then
+elif [ $marks -lt 75 ]; then
     echo "first class"
 else 
     echo "distinction"
