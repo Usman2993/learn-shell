@@ -3,7 +3,7 @@
 user_id=$(id -u)
 
 logs_folder="/var/log/shell-practice"
-logs_folder="${logs_folder}/${0}.log"
+logs_file="${logs_folder}/${0}.log"
 
 if [ $user_id -ne 0 ]; then
     echo "Please run the script with sudo access"
